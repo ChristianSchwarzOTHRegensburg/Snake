@@ -58,9 +58,6 @@ var game = (function () {
 
     /* Todo: Call this function only after player has pressed the start key */
     function privateStartGame() {
-        /* Todo: initialize objects (i.e. apple, snake, counter) here */
-        
-
         snake = new Snake(RASTER_SIZE, privateContext);
         apple = new Apple(RASTER_SIZE, privateContext);
 
