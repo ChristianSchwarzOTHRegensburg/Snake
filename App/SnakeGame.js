@@ -20,7 +20,6 @@ var game = (function () {
     var START = 27;
     var direction;
 
-
     /* Variables and constants to control framerate */
     var FPS = 10; /* change this to change framerate in the game */
     var now;
@@ -48,7 +47,6 @@ var game = (function () {
             //snake.moveSnake();
             eatApple();
             checkCollision();
-
         }
     }
 
