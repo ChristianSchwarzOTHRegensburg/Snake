@@ -50,7 +50,7 @@ var game = (function () {
         }
     }
 
-    // Setzt den Canvas und dessen Context als Variablen
+    // Set canvas and his context as variables
     function privateSetContext(canvas) {
         privateCanvas = canvas;
         privateContext = canvas.getContext("2d");
