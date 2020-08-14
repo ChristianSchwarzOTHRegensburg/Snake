@@ -17,7 +17,6 @@ Apple.prototype.getYPos = function () {
 }
 
 Apple.prototype.draw = function () {
-
     this.context.fillStyle = "red";
     this.context.fillRect(this.xPos, this.yPos, this.width, this.height);
 }
