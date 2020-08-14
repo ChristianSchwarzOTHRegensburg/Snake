@@ -4,7 +4,6 @@ var Apple = function (rastersize, context) {
     this.height = rastersize;
     this.width = rastersize;
     this.context = context;
-
     this.xPos = determineRandomPosition();
     this.yPos = determineRandomPosition();
 }
