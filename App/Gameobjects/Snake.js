@@ -25,7 +25,6 @@ Snake.prototype.draw = function () {
 }
 
 Snake.prototype.update = function (direction) {
-    //if (direction === this.start) {
     if (direction == undefined) {
         console.log("nothing");
         return;
@@ -42,8 +41,7 @@ Snake.prototype.update = function (direction) {
         this.x = 0;
         this.y = 10;
     }
-    this.newHead();
-    //}    
+    this.newHead();  
 }
 
 //Snake.prototype.update = function () {
