@@ -44,11 +44,6 @@ Snake.prototype.update = function (direction) {
     this.newHead();  
 }
 
-//Snake.prototype.update = function () {
-//this.direction();
-//this.x = 10;
-//this.y = 0;
-//this.newHead();
 
 Snake.prototype.moveUp = function () {
     //this.array[1].getXPos() -= this.snakeSpeed;
