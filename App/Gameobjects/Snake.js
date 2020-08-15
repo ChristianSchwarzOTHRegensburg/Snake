@@ -81,12 +81,6 @@ Snake.prototype.start = function () {
     console.log("Escape");
 }
 
-/*Snake.prototype.moveDefault = function () {
-    console.log("default");
-    this.newHead();
-}*/
-//}
-
 
 Snake.prototype.newHead = function () {
     this.moveArray();
