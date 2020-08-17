@@ -17,7 +17,6 @@ SnakeElement.prototype.getYPos = function () {
     return this.yPos;
 }
 
-
 SnakeElement.prototype.drawElement = function () {
     this.context.fillStyle = "blue";
     this.context.fillRect(this.xPos, this.yPos, this.width, this.height);
