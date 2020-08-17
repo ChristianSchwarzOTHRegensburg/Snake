@@ -4,7 +4,6 @@ var SnakeElement = function (x, y, rastersize, context) {
     this.height = rastersize;
     this.width = rastersize;
     this.context = context;
-
     this.xPos = x;
     this.yPos = y;
 
