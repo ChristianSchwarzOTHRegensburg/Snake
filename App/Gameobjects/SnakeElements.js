@@ -6,7 +6,6 @@ var SnakeElement = function (x, y, rastersize, context) {
     this.context = context;
     this.xPos = x;
     this.yPos = y;
-
 }
 
 SnakeElement.prototype.getXPos = function () {
